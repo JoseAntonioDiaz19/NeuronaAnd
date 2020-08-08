@@ -171,8 +171,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
 
         PanelEntradas.setLayout(new java.awt.GridBagLayout());
 
+        BotonX1Titulo.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1Titulo.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1Titulo.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1Titulo.setText("X1");
+        BotonX1Titulo.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -181,8 +184,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX1Titulo, gridBagConstraints);
 
+        BotonX1_1.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_1.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_1.setText("1");
+        BotonX1_1.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
@@ -191,8 +197,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX1_1, gridBagConstraints);
 
+        BotonX1_2.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_2.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_2.setText("1");
+        BotonX1_2.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
@@ -201,8 +210,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX1_2, gridBagConstraints);
 
+        BotonX1_3.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_3.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_3.setText("0");
+        BotonX1_3.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 3;
@@ -211,8 +223,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX1_3, gridBagConstraints);
 
+        BotonX1_4.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_4.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_4.setText("0");
+        BotonX1_4.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
@@ -221,8 +236,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX1_4, gridBagConstraints);
 
+        BotonX2Titulo.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2Titulo.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2Titulo.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2Titulo.setText("X2");
+        BotonX2Titulo.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -231,8 +249,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX2Titulo, gridBagConstraints);
 
+        BotonX2_1.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_1.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_1.setText("1");
+        BotonX2_1.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
@@ -241,8 +262,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX2_1, gridBagConstraints);
 
+        BotonX2_2.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_2.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_2.setText("0");
+        BotonX2_2.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
@@ -251,8 +275,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX2_2, gridBagConstraints);
 
+        BotonX2_3.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_3.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_3.setText("1");
+        BotonX2_3.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 3;
@@ -261,8 +288,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX2_3, gridBagConstraints);
 
+        BotonX2_4.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_4.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_4.setText("0");
+        BotonX2_4.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 4;
@@ -271,8 +301,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonX2_4, gridBagConstraints);
 
+        BotonSalidaD.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD.setText("Salida D");
+        BotonSalidaD.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
@@ -281,8 +314,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonSalidaD, gridBagConstraints);
 
+        BotonSalidaD_1.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_1.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_1.setText("1");
+        BotonSalidaD_1.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 1;
@@ -291,8 +327,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonSalidaD_1, gridBagConstraints);
 
+        BotonSalidaD_2.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_2.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_2.setText("0");
+        BotonSalidaD_2.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 2;
@@ -301,8 +340,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonSalidaD_2, gridBagConstraints);
 
+        BotonSalidaD_3.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_3.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_3.setText("0");
+        BotonSalidaD_3.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 3;
@@ -311,8 +353,11 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonSalidaD_3, gridBagConstraints);
 
+        BotonSalidaD_4.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_4.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_4.setText("0");
+        BotonSalidaD_4.setFocusPainted(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 4;
@@ -321,7 +366,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradas.add(BotonSalidaD_4, gridBagConstraints);
 
+        BotonEntrenar_1.setBackground(new java.awt.Color(0, 153, 204));
         BotonEntrenar_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonEntrenar_1.setForeground(new java.awt.Color(255, 255, 255));
         BotonEntrenar_1.setText("Enviar");
         BotonEntrenar_1.setActionCommand("E1");
         BotonEntrenar_1.setEnabled(false);
@@ -331,9 +378,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradas.add(BotonEntrenar_1, gridBagConstraints);
 
+        BotonEntrenar_2.setBackground(new java.awt.Color(0, 153, 204));
         BotonEntrenar_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonEntrenar_2.setForeground(new java.awt.Color(255, 255, 255));
         BotonEntrenar_2.setText("Enviar");
         BotonEntrenar_2.setActionCommand("E2");
         BotonEntrenar_2.setEnabled(false);
@@ -343,9 +393,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradas.add(BotonEntrenar_2, gridBagConstraints);
 
+        BotonEntrenar_3.setBackground(new java.awt.Color(0, 153, 204));
         BotonEntrenar_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonEntrenar_3.setForeground(new java.awt.Color(255, 255, 255));
         BotonEntrenar_3.setText("Enviar");
         BotonEntrenar_3.setActionCommand("E3");
         BotonEntrenar_3.setEnabled(false);
@@ -355,9 +408,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradas.add(BotonEntrenar_3, gridBagConstraints);
 
+        BotonEntrenar_4.setBackground(new java.awt.Color(0, 153, 204));
         BotonEntrenar_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonEntrenar_4.setForeground(new java.awt.Color(255, 255, 255));
         BotonEntrenar_4.setText("Enviar");
         BotonEntrenar_4.setActionCommand("E4");
         BotonEntrenar_4.setEnabled(false);
@@ -367,9 +423,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradas.add(BotonEntrenar_4, gridBagConstraints);
 
+        BotonIniciar.setBackground(new java.awt.Color(0, 153, 204));
         BotonIniciar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonIniciar.setForeground(new java.awt.Color(255, 255, 255));
         BotonIniciar.setText("Iniciar");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -377,6 +436,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradas.add(BotonIniciar, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -641,7 +701,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
 
         PanelEntradasPruebas.setLayout(new java.awt.GridBagLayout());
 
+        BotonX1Titulo1.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1Titulo1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1Titulo1.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1Titulo1.setText("X1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -652,7 +714,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX1Titulo1, gridBagConstraints);
 
+        BotonX1_5.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_5.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_5.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -663,7 +727,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX1_5, gridBagConstraints);
 
+        BotonX1_6.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_6.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_6.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -674,7 +740,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX1_6, gridBagConstraints);
 
+        BotonX1_7.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_7.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_7.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -685,7 +753,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX1_7, gridBagConstraints);
 
+        BotonX1_8.setBackground(new java.awt.Color(0, 185, 176));
         BotonX1_8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX1_8.setForeground(new java.awt.Color(255, 255, 255));
         BotonX1_8.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -696,7 +766,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX1_8, gridBagConstraints);
 
+        BotonX2Titulo1.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2Titulo1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2Titulo1.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2Titulo1.setText("X2");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -707,7 +779,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX2Titulo1, gridBagConstraints);
 
+        BotonX2_5.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_5.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_5.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -718,7 +792,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX2_5, gridBagConstraints);
 
+        BotonX2_6.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_6.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_6.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -729,7 +805,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX2_6, gridBagConstraints);
 
+        BotonX2_7.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_7.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_7.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -740,7 +818,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX2_7, gridBagConstraints);
 
+        BotonX2_8.setBackground(new java.awt.Color(0, 185, 176));
         BotonX2_8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonX2_8.setForeground(new java.awt.Color(255, 255, 255));
         BotonX2_8.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
@@ -751,7 +831,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonX2_8, gridBagConstraints);
 
+        BotonSalidaD1.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD1.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD1.setText("Salida D");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -762,7 +844,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonSalidaD1, gridBagConstraints);
 
+        BotonSalidaD_5.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_5.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_5.setText("1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -773,7 +857,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonSalidaD_5, gridBagConstraints);
 
+        BotonSalidaD_6.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_6.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_6.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -784,7 +870,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonSalidaD_6, gridBagConstraints);
 
+        BotonSalidaD_7.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_7.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_7.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -795,7 +883,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonSalidaD_7, gridBagConstraints);
 
+        BotonSalidaD_8.setBackground(new java.awt.Color(0, 185, 176));
         BotonSalidaD_8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonSalidaD_8.setForeground(new java.awt.Color(255, 255, 255));
         BotonSalidaD_8.setText("0");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
@@ -806,7 +896,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 1.0;
         PanelEntradasPruebas.add(BotonSalidaD_8, gridBagConstraints);
 
+        BotonPrueba1.setBackground(new java.awt.Color(0, 153, 204));
         BotonPrueba1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonPrueba1.setForeground(new java.awt.Color(255, 255, 255));
         BotonPrueba1.setText("Enviar");
         BotonPrueba1.setActionCommand("P1");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -816,9 +908,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradasPruebas.add(BotonPrueba1, gridBagConstraints);
 
+        BotonPrueba2.setBackground(new java.awt.Color(0, 153, 204));
         BotonPrueba2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonPrueba2.setForeground(new java.awt.Color(255, 255, 255));
         BotonPrueba2.setText("Enviar");
         BotonPrueba2.setActionCommand("P2");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -828,9 +923,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradasPruebas.add(BotonPrueba2, gridBagConstraints);
 
+        BotonPrueba3.setBackground(new java.awt.Color(0, 153, 204));
         BotonPrueba3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonPrueba3.setForeground(new java.awt.Color(255, 255, 255));
         BotonPrueba3.setText("Enviar");
         BotonPrueba3.setActionCommand("P3");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -840,9 +938,12 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradasPruebas.add(BotonPrueba3, gridBagConstraints);
 
+        BotonPrueba4.setBackground(new java.awt.Color(0, 153, 204));
         BotonPrueba4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        BotonPrueba4.setForeground(new java.awt.Color(255, 255, 255));
         BotonPrueba4.setText("Enviar");
         BotonPrueba4.setActionCommand("P4");
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -852,6 +953,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 0);
         PanelEntradasPruebas.add(BotonPrueba4, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -874,7 +976,8 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         PanelSalida.add(LabelSalida, gridBagConstraints);
 
         TextSalida.setEditable(false);
-        TextSalida.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        TextSalida.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextSalida.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.ipadx = 100;
         gridBagConstraints.ipady = 10;
