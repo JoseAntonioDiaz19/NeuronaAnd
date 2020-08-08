@@ -28,10 +28,9 @@ public class Neurona {
             activacion = 0;
         }
         
-        System.out.println("");
-        System.out.println((valoresFila.getX1() +" * "+ wi[0]));
-        System.out.println((valoresFila.getX2() +" *  "+ wi[1]));
-        System.out.println("Sumatoria: " + wx);
+        System.out.println("---------------------------------------");
+        System.out.println((valoresFila.getX1() +" * "+ wi[0])+" + "+(valoresFila.getX2() +" *  "+ wi[1])+" - " + umbral);
+        System.out.println("Sumatoria: " + fijarNumero(wx,5));
         System.out.println("Tanjente hiperbólica de la sumatoria: " + y1);
         
         return activacion;
@@ -70,5 +69,13 @@ public class Neurona {
      */
     public void setUmbral(double umbral) {
         this.umbral = umbral;
+    }
+    
+     public static double fijarNumero(double numero, int digitos) {
+        double resultado;
+        resultado = numero * Math.pow(10, digitos);
+        resultado = Math.round(resultado);
+        resultado = resultado/Math.pow(10, digitos);
+        return resultado;
     }
 }

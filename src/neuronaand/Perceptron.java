@@ -42,6 +42,10 @@ public class Perceptron {
             calcularNuevosPesos(Wi, deltai);
             //Calcular nuevo umbral
             calcularNuevoUmbral();
+            System.out.println("Nuevos Pesos");
+            System.out.println("W1 = " + Wi[0]);
+            System.out.println("W2 = " + Wi[1]);
+            System.out.println("Nuevo umbral: " + umbral);
         }
         neurona.setWi(Wi);
         return neurona;

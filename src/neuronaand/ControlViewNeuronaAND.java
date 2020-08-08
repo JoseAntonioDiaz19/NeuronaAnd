@@ -59,13 +59,13 @@ public class ControlViewNeuronaAND {
         perceptron1.setCoeficienteAprendizaje(0.25);
        
         //Pesos iniciales aleatorios
-         double [] Wi = new double[2];
-//        for (int i = 0; i < Wi.length; i++) {
-//            Wi[i] = fijarNumero(Math.random(), 2);
-//        }
+        double [] Wi = new double[2];
+        for (int i = 0; i < Wi.length; i++) {
+            Wi[i] = fijarNumero(Math.random(), 2);
+        }
 
-         Wi[0] = 0.50;
-         Wi[1] = 0.20;
+//         Wi[0] = 0.50;
+//         Wi[1] = 0.20;
         //Enviar pesos a la interfaz        
         viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
         viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
@@ -77,11 +77,11 @@ public class ControlViewNeuronaAND {
 
     private void botonEntrenar_1(ActionEvent e) {
         double [] Wi = neurona1.getWi();
-        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
-        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
+        viewNeuronaAnd.TextValorW1.setText(""+fijarNumero(Wi[0],5));
+        viewNeuronaAnd.TextValorW2.setText(""+fijarNumero(Wi[1],5));
         viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
         
-        viewNeuronaAnd.TextValorX1.setText(""+TablaFila1.getX1());
+        viewNeuronaAnd.TextValorX1.setText(""+ TablaFila1.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila1.getX2());
        
         perceptron1.entrenar(TablaFila1,neurona1);
@@ -102,8 +102,8 @@ public class ControlViewNeuronaAND {
 
     private void botonEntrenar_2(ActionEvent e) {
         double [] Wi = neurona1.getWi();
-        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
-        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
+        viewNeuronaAnd.TextValorW1.setText(""+fijarNumero(Wi[0],5));
+        viewNeuronaAnd.TextValorW2.setText(""+fijarNumero(Wi[1],5));
          viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
          
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila2.getX1());
@@ -127,10 +127,10 @@ public class ControlViewNeuronaAND {
     }
 
     private void botonEntrenar_3(ActionEvent e) {
-         double [] Wi = neurona1.getWi();
-        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
-        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
-         viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
+        double [] Wi = neurona1.getWi();
+        viewNeuronaAnd.TextValorW1.setText(""+fijarNumero(Wi[0],5));
+        viewNeuronaAnd.TextValorW2.setText(""+fijarNumero(Wi[1],5));
+        viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
          
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila3.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila3.getX2());
@@ -144,7 +144,7 @@ public class ControlViewNeuronaAND {
             viewNeuronaAnd.LabelEstadoFinal.setText("Error");
             neurona1.setWi(perceptron1.getWi());
             neurona1.setUmbral(perceptron1.getUmbral());
-            viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
+              viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(204,0,51));
         }else{
             viewNeuronaAnd.LabelEstadoFinal.setText("Salida correcta");
             viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
@@ -154,9 +154,9 @@ public class ControlViewNeuronaAND {
 
     private void botonEntrenar_4(ActionEvent e) {
         double [] Wi = neurona1.getWi();
-        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
-        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
-         viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
+        viewNeuronaAnd.TextValorW1.setText(""+fijarNumero(Wi[0],5));
+        viewNeuronaAnd.TextValorW2.setText(""+fijarNumero(Wi[1],5));
+        viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
          
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila4.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila4.getX2());
@@ -170,7 +170,7 @@ public class ControlViewNeuronaAND {
             viewNeuronaAnd.LabelEstadoFinal.setText("Error");
             neurona1.setWi(perceptron1.getWi());
             neurona1.setUmbral(perceptron1.getUmbral());
-             viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
+               viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(204,0,51));
         }else{
             viewNeuronaAnd.LabelEstadoFinal.setText("Salida correcta");
              viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
