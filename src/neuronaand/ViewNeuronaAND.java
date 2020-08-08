@@ -142,7 +142,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         PanelTituloEntrenamiento.setLayout(PanelTituloEntrenamientoLayout);
         PanelTituloEntrenamientoLayout.setHorizontalGroup(
             PanelTituloEntrenamientoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1089, Short.MAX_VALUE)
+            .addGap(0, 1093, Short.MAX_VALUE)
             .addGroup(PanelTituloEntrenamientoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(PanelTituloEntrenamientoLayout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
@@ -392,7 +392,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
 
         PanelLinea1.setLayout(new java.awt.GridBagLayout());
 
-        LabelValorX1.setText("X1");
+        LabelValorX1.setText("X1 ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -400,6 +400,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 30, 0, 0);
         PanelLinea1.add(LabelValorX1, gridBagConstraints);
+
+        TextValorX1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextValorX1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -408,7 +411,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         PanelLinea1.add(TextValorX1, gridBagConstraints);
 
-        LabelValorW1.setText("W1");
+        LabelValorW1.setText(" W1 ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
@@ -416,6 +419,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.weighty = 10.0;
         gridBagConstraints.insets = new java.awt.Insets(20, 70, 0, 0);
         PanelLinea1.add(LabelValorW1, gridBagConstraints);
+
+        TextValorW1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextValorW1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -433,6 +439,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         PanelNeurona.add(PanelLinea1, gridBagConstraints);
 
         PanelLinea3.setLayout(new java.awt.GridBagLayout());
+
+        TextSumatoria.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextSumatoria.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -443,7 +452,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 200, 0, 0);
         PanelLinea3.add(TextSumatoria, gridBagConstraints);
 
-        LabelSalidaActivada.setText("Y");
+        LabelSalidaActivada.setText("Y ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -452,7 +461,8 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 230, 0, 0);
         PanelLinea3.add(LabelSalidaActivada, gridBagConstraints);
 
-        TextSalidaActivada.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        TextSalidaActivada.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextSalidaActivada.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
@@ -460,7 +470,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 63;
         gridBagConstraints.ipady = 10;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 50);
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 40);
         PanelLinea3.add(TextSalidaActivada, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -472,7 +482,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
 
         PanelLinea2.setLayout(new java.awt.GridBagLayout());
 
-        LabelValorX2.setText("X1");
+        LabelValorX2.setText("X1 ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
@@ -480,6 +490,9 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(0, 30, 0, 0);
         PanelLinea2.add(LabelValorX2, gridBagConstraints);
+
+        TextValorX2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextValorX2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
@@ -489,14 +502,17 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         PanelLinea2.add(TextValorX2, gridBagConstraints);
 
-        LabelValorW2.setText("W1");
+        LabelValorW2.setText(" W2 ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.ipady = 10;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 70, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(10, 70, 0, 0);
         PanelLinea2.add(LabelValorW2, gridBagConstraints);
+
+        TextValorW2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        TextValorW2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
         gridBagConstraints.gridy = 0;
@@ -504,7 +520,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
         gridBagConstraints.ipadx = 63;
         gridBagConstraints.ipady = 10;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 100);
+        gridBagConstraints.insets = new java.awt.Insets(10, 0, 0, 100);
         PanelLinea2.add(TextValorW2, gridBagConstraints);
 
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -562,7 +578,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
 
         LabelEstadoFinal.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         LabelEstadoFinal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        LabelEstadoFinal.setText("Estado Final");
+        LabelEstadoFinal.setText("Estado");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 4;
         gridBagConstraints.gridy = 0;
@@ -597,7 +613,7 @@ public class ViewNeuronaAND extends javax.swing.JFrame {
 
         LabelPruebasTitulo.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         LabelPruebasTitulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        LabelPruebasTitulo.setText("Pruebas");
+        LabelPruebasTitulo.setText("Utilizar neurona entrenada");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;

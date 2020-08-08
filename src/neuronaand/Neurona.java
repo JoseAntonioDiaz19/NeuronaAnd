@@ -19,11 +19,7 @@ public class Neurona {
         double y1;
         int activacion = 0;
         wx = (valoresFila.getX1() * wi[0]) + (valoresFila.getX2() * wi[1])- umbral; //Función propagación
-        System.out.println("Sumatoria: " + wx);
-        System.out.println((valoresFila.getX1() +" "+ wi[0]));
-        System.out.println((valoresFila.getX2() +" "+ wi[1]));
         y1 = Math.tanh(getWx()); //Salida
-        System.out.println(y1);
        
         if (y1>=0) {
             activacion = 1;
@@ -31,6 +27,13 @@ public class Neurona {
         if (y1 < 0) {
             activacion = 0;
         }
+        
+        System.out.println("");
+        System.out.println((valoresFila.getX1() +" * "+ wi[0]));
+        System.out.println((valoresFila.getX2() +" *  "+ wi[1]));
+        System.out.println("Sumatoria: " + wx);
+        System.out.println("Tanjente hiperbólica de la sumatoria: " + y1);
+        
         return activacion;
     }
     

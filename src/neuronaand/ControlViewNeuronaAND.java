@@ -1,5 +1,6 @@
 package neuronaand;
 
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 
@@ -75,97 +76,122 @@ public class ControlViewNeuronaAND {
     }
 
     private void botonEntrenar_1(ActionEvent e) {
+        double [] Wi = neurona1.getWi();
+        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
+        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
+        viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
+        
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila1.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila1.getX2());
        
         perceptron1.entrenar(TablaFila1,neurona1);
-        viewNeuronaAnd.TextSumatoria.setText(""+neurona1.getWx());
+        viewNeuronaAnd.TextSumatoria.setText(""+fijarNumero(neurona1.getWx(), 5));
         viewNeuronaAnd.TextSalidaActivada.setText(""+perceptron1.getSalidaRed());
         
         if (perceptron1.getErrorCometido() != 0) {
             viewNeuronaAnd.LabelEstadoFinal.setText("Error");
             neurona1.setWi(perceptron1.getWi());
             neurona1.setUmbral(perceptron1.getUmbral());
+            viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(204,0,51));
         }else{
             viewNeuronaAnd.LabelEstadoFinal.setText("Salida correcta");
+            viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
         }
         
     }
 
     private void botonEntrenar_2(ActionEvent e) {
-        
+        double [] Wi = neurona1.getWi();
+        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
+        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
+         viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
+         
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila2.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila2.getX2());
        
         perceptron1.entrenar(TablaFila2,neurona1);
         
-        viewNeuronaAnd.TextSumatoria.setText(""+neurona1.getWx());
+        viewNeuronaAnd.TextSumatoria.setText(""+fijarNumero(neurona1.getWx(), 5));
         viewNeuronaAnd.TextSalidaActivada.setText(""+perceptron1.getSalidaRed());
         
         if (perceptron1.getErrorCometido() != 0) {
             viewNeuronaAnd.LabelEstadoFinal.setText("Error");
             neurona1.setWi(perceptron1.getWi());
             neurona1.setUmbral(perceptron1.getUmbral());
+             viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(204,0,51));
         }else{
             viewNeuronaAnd.LabelEstadoFinal.setText("Salida correcta");
+            viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
         }
       
     }
 
     private void botonEntrenar_3(ActionEvent e) {
-        
+         double [] Wi = neurona1.getWi();
+        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
+        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
+         viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
+         
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila3.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila3.getX2());
        
         perceptron1.entrenar(TablaFila3,neurona1);
         
-        viewNeuronaAnd.TextSumatoria.setText(""+neurona1.getWx());
+        viewNeuronaAnd.TextSumatoria.setText(""+fijarNumero(neurona1.getWx(), 5));
         viewNeuronaAnd.TextSalidaActivada.setText(""+perceptron1.getSalidaRed());
         
         if (perceptron1.getErrorCometido() != 0) {
             viewNeuronaAnd.LabelEstadoFinal.setText("Error");
             neurona1.setWi(perceptron1.getWi());
             neurona1.setUmbral(perceptron1.getUmbral());
+            viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
         }else{
             viewNeuronaAnd.LabelEstadoFinal.setText("Salida correcta");
+            viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
         }
        
     }
 
     private void botonEntrenar_4(ActionEvent e) {
-        
+        double [] Wi = neurona1.getWi();
+        viewNeuronaAnd.TextValorW1.setText(""+Wi[0]);
+        viewNeuronaAnd.TextValorW2.setText(""+Wi[1]);
+         viewNeuronaAnd.TextUmbral.setText(""+perceptron1.getUmbral());
+         
         viewNeuronaAnd.TextValorX1.setText(""+TablaFila4.getX1());
         viewNeuronaAnd.TextValorX2.setText(""+TablaFila4.getX2());
        
         perceptron1.entrenar(TablaFila4,neurona1);
         
-        viewNeuronaAnd.TextSumatoria.setText(""+neurona1.getWx());
+        viewNeuronaAnd.TextSumatoria.setText(""+fijarNumero(neurona1.getWx(), 5));
         viewNeuronaAnd.TextSalidaActivada.setText(""+perceptron1.getSalidaRed());
         
         if (perceptron1.getErrorCometido() != 0) {
             viewNeuronaAnd.LabelEstadoFinal.setText("Error");
             neurona1.setWi(perceptron1.getWi());
             neurona1.setUmbral(perceptron1.getUmbral());
+             viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
         }else{
             viewNeuronaAnd.LabelEstadoFinal.setText("Salida correcta");
+             viewNeuronaAnd.LabelEstadoFinal.setForeground(new Color(0,153,102));
         }
        
     }
 
     private void BotonPrueba1(ActionEvent e) {
-       
+       viewNeuronaAnd.TextSalida.setText(""+neurona1.getY1(TablaFila1));
     }
 
     private void BotonPrueba2(ActionEvent e) {
-       
+       viewNeuronaAnd.TextSalida.setText(""+neurona1.getY1(TablaFila2));
     }
 
     private void BotonPrueba3(ActionEvent e) {
-       
+       viewNeuronaAnd.TextSalida.setText(""+neurona1.getY1(TablaFila3));
     }
 
     private void BotonPrueba4(ActionEvent e) {
-       
+       viewNeuronaAnd.TextSalida.setText(""+neurona1.getY1(TablaFila4));
     }
 
     
